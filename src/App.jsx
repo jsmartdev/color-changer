@@ -34,7 +34,6 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     colorChange(input);
-    console.log(textColor);
   }
 
   const toLowercase = (colors) => {
