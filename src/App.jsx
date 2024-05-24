@@ -56,12 +56,10 @@ const App = () => {
     }
   }
 
-  
-
   return (
     <div className='flex flex-col items-center justify-center w-screen h-screen'>
       <Header text='Color Changer'/>
-      <ColorField  color={color}/>
+      <ColorField  color={color} textColor={textColor} />
       <ColorInput setInput={setInput} handleSubmit={handleSubmit}/>
       <TextColorButton textColor={textColor} setTextColor={setTextColor} />
     </div>
