@@ -1,5 +1,4 @@
 
-
 export const Header = ({ text }) => {
   return (
     <header>
