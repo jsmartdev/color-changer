@@ -6,7 +6,7 @@ export const ColorInput = ({setInput, handleSubmit}) => {
       <input 
         autoFocus
         id='colorInput'
-        className='w-80 p-2 m-1'
+        className='w-80 p-2 m-1 border-2 border-black'
         type='text'
         placeholder='enter a color'
         onChange={(e) => setInput(e.target.value)}
